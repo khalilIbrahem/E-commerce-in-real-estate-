@@ -1,0 +1,62 @@
+.welcom-area{
+	overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #212529;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; 
+	height: 100vh;
+}
+.login-continare{
+    margin: 0 35%;
+    display: inline-block;
+    width: 30%;
+}
+.table-login{
+    width: 100%;
+    position: relative;
+}
+.login-title{
+    margin-left: 50%;
+    margin-bottom: 40px;
+    font-size: 25px;
+    position: relative;
+    font-style: italic;
+    color: white ;
+}
+
+.first-col-table-login{
+    width: 25%;
+    position: relative;
+   
+    font-style: italic;
+    
+}
+.first-col-table-login label{
+    color: white ;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+
+}
+.second-col-table-login{
+    width: 75%;
+    position: relative;
+    border-radius: 30 30 30 30px;
+}
+#button-login{
+    position: relative;
+    width: 160px;
+    height: auto;
+    border-radius: 30px;
+    margin-left: 100px;
+    color: white;
+    background:rgba(70, 27, 70, 0.467);
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-top: 20px;
+}

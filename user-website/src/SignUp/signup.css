@@ -1,0 +1,52 @@
+.welcome-area{
+    overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #212529;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; 
+	height: 100vh; 
+}
+.singup-container{
+    margin: 0 35%;
+    display: inline-block;
+    width: 30%;
+    margin-top: 121px;
+}
+.singup-table{
+    width: 100%;
+}
+.singup-table-first-Colum{
+    width: 25%;
+    font-size: medium;
+    font-style: italic;
+}
+.singup-table-secound-Colum{
+    width: 75%;
+}
+#signup-button{
+    margin-left: 100%; 
+    background: #000000;
+    border-radius: 13px;
+    width: 120px;
+}
+#signup-button p{
+    font-size: 13px;
+    color:aliceblue;
+    font-style: italic;  
+    
+}
+.singup-title{
+    margin-left: 50%;
+    font-size:larger;
+    font-weight: 500;
+    font-style: italic;
+    color: aliceblue;
+    
+}
+label{
+    color :aliceblue
+}

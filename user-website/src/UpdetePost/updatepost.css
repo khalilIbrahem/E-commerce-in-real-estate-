@@ -1,0 +1,76 @@
+.welcome-area{
+    overflow: hidden;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #212529;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover; 
+    height: 100vh;
+
+}
+.post-container{
+    margin: 0 35%;
+    display: inline-block;
+    width: 30%;
+    margin-top: 121px;
+}
+.post-table{
+    width: 100%;
+   
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 220px;
+    overflow: auto;
+    }
+.table-wrapper-scroll-y {
+    display: block;
+    }
+.post-table-first-Colum{
+    width: 25%;
+    margin-bottom: 15px;
+    font-size: medium;
+    font-style: italic;
+}
+.post-table-secound-Colum{
+    width: 75%;
+}
+#signup-button{
+    margin-left: 100%; 
+    background: #000000;
+    border-radius: 13px;
+    width: 120px;
+}
+#signup-button p{
+    font-size: 13px;
+    color:aliceblue;
+    font-style: italic;  
+    
+}
+#bac-button{
+    margin-left: 150px; 
+    background: #000000;
+    border-radius: 13px;
+    width: 120px;
+}
+#bac-button p{
+    font-size: 13px;
+    color:aliceblue;
+    font-style: italic;    
+}
+#ptitle{
+    margin-left: 50%;
+    font-size:larger;
+    font-weight: 500;
+    font-style: italic;
+    
+  
+    
+}
+label{
+    color :aliceblue
+}
+ 

@@ -1,0 +1,14 @@
+#forminfo{
+    margin-top: 250px;
+}
+
+.img-pro{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-top: -190px;
+    margin-bottom: 15px;
+}
+label{
+    color: aliceblue;
+}

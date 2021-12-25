@@ -1,0 +1,87 @@
+.users-table{
+    width: 1000px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     margin-right: 20px;   
+    }
+.users-table> tr > td {
+        height: 5px;    
+    }
+.site-layout-background{
+        margin-left: 255px;
+        width: auto;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background:lightslategrey;
+        margin-bottom: 10px;
+        
+    }
+
+.title-users{
+        width: 100px;
+        padding: 0px;
+        margin: 0px;
+        margin-bottom: 0px;
+        display:flex;
+        flex-direction: row;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+    }
+.title-users #icon{
+        flex: 25%;
+        display: grid;
+        place-items: center;
+    }
+.title-users #title{
+        flex: 75%;
+        margin-left: 5px;
+        color:white
+    }     
+
+.title-logout-users{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 89%;
+    margin-bottom: 30px;
+    margin-top: -28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.title-logout-users #icon{
+    flex: 3%;
+    display: grid;
+    place-items: center;
+}
+.title-logout-users #title{
+    flex: 97%;
+    color: white;
+} 
+#users{
+    position: relative;
+    width: 1040px;
+    border-radius: 13px;
+     margin-bottom: 5px;
+} 
+#view-user{
+    color: #fff;
+    background: cadetblue;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
+#delete-user{
+    color: #fff;
+    background: red;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+}
